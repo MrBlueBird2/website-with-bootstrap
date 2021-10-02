@@ -1,0 +1,474 @@
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #e77878;
+    border: 1px solid transparent;
+    border-radius: 100px;
+}
+
+body::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::selection {
+    background: #4560F060;
+}
+
+html {
+    display: block;
+}
+
+.text-blue {
+    color: #4949d8;
+}
+
+.project-item p {
+    width: 400px;
+}
+
+.project-item {
+    width: 400px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.redemins {
+    position: relative;
+}
+
+.card-body {
+    position: relative;
+}
+
+#smp-btn {
+    display: block;
+    margin: 0 auto;
+}
+
+@media screen and (min-width:1288px) {
+    .redemins {
+        position: relative;
+        left: 950px;
+    }
+
+    .card-body-x-right {
+        position: relative;
+        left: -300px;
+        /* width: 300px; */
+    }
+}
+
+@media screen and (min-width:1300px) {
+    #smp-btn {
+        margin: 0px 565px;
+        margin-top: 20px;
+    }
+}
+
+#b-slider {
+    width: 400px;
+}
+
+.s-img {
+    opacity: 0.5;
+}
+
+@media screen and (min-width:1300px) {
+    #b-slider {
+        position: relative;
+        left: 470px;
+        top: 5px;
+    }
+}
+
+.portfolio-item {
+    padding: 10px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.portfolio-item:hover {
+    transition: 0.3s;
+    margin-top: -3px;
+}
+
+.btn-group {
+    padding: 10px;
+}
+
+.circle {
+    width: 20px;
+    height: 2px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+#slider-1 {
+    display: none;
+}
+
+#slider-2 {
+    display: none;
+}
+
+#slider-3 {
+    display: none;
+}
+
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transition: 0.3s;
+}
+
+#slider-change {
+    display: none;
+}
+
+.hide {
+    opacity: 0;
+    /* left: -100%; */
+}
+
+.show {
+    opacity: 1;
+    /* left: 0; */
+}
+
+.internship {
+    z-index: 1;
+    transition: all 1s;
+}
+
+#projects {
+    z-index: 1;
+    transition: all 1s;
+}
+
+#slider-1 {
+    z-index: 1;
+    display: none;
+    transition: all 1s;
+    opacity: 1;
+}
+
+#slider-2 {
+    z-index: 1;
+    opacity: 1;
+    display: none;
+    transition: all 1s;
+}
+
+#slider-3 {
+    z-index: 1;
+    opacity: 1;
+    display: none;
+    transition: all 1s;
+}
+
+.slider-1 {
+    display: block;
+    animation: slidchan 2s 1;
+}
+
+@keyframes slidchan {
+    0% {
+        opacity: 0;
+        position: relative;
+        left: -100%;
+    }
+}
+
+#experience {
+    z-index: 1;
+    transition: all 1s;
+}
+
+#achievements {
+    z-index: 1;
+    transition: all 1s;
+}
+
+#skills {
+    z-index: 1;
+    transition: all 1s;
+}
+
+body {
+    /* overflow-x: hidden; */
+}
+
+#scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    border: 1px solid transparent;
+    right: 20px;
+    z-index: 99;
+    outline: none;
+    border-radius: 100%;
+    transition: all 1s;
+    /* z-index: 1; */
+}
+
+#smpb {
+    display: block;
+}
+
+#hp12kfmr {
+    display: none;
+}
+
+#left-align-css .card {
+    margin: 0 5px;
+    border-radius: 100px;
+}
+
+#left-align-css .card:hover {
+    /* margin-top: -5px; */
+}
+
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-margin: 25px;
+    transition: 0.85s;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+}
+
+::selection {
+    background: #4560F060;
+}
+
+html {
+    display: block;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+h5 {
+    color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 36px;
+}
+
+h6 {
+    color: black;
+}
+
+.btn {
+    padding: 10px;
+}
+
+p {
+    color: black;
+}
+
+#dd-m li a:hover {
+    transition: 0.85s;
+    background: black;
+}
+
+#dd-m li a {
+    transition: 0.85s;
+}
+
+.custom-color-not-b {
+    color: white;
+}
+
+input[type=text] {
+    background: #37393E;
+}
+
+textarea[type=text] {
+    background: #37393E;
+}
+
+.random-red {
+    background: linear-gradient(93.05deg, #EF9797 3.98%, rgba(206, 126, 199, 0.801616) 35.29%, #A364D6 68.78%,
+            #A1D0F9 97.44%);
+}
+
+body {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-margin: 25px;
+    transition: 0.85s;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: black;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+}
+
+::selection {
+    background: #4560F060;
+}
+
+html {
+    display: block;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: black;
+}
+
+h4 {
+    color: black;
+}
+
+h5 {
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+}
+
+h6 {
+    color: black;
+}
+
+.btn {
+    padding: 10px;
+}
+
+p {
+    color: black;
+}
+
+#dd-m li a:hover {
+    transition: 0.85s;
+    background: black;
+    color: white;
+}
+
+#dd-m li a {
+    transition: 0.85s;
+    color: white;
+}
+
+.custom-color-not-b {
+    color: white;
+}
+
+input[type=text] {
+    background: #37393E;
+}
+
+textarea[type=text] {
+    background: #37393E;
+}
+
+.random-red {
+    background: linear-gradient(93.05deg, #EF9797 3.98%, rgba(206, 126, 199, 0.801616) 35.29%, #A364D6 68.78%,
+            #A1D0F9 97.44%);
+}
+
+li {
+    color: black;
+}
+
+span {
+    color: black;
+}
+
+.microscope {
+    display: block;
+    max-width: 100%;
+    width: 270px;
+    position: absolute;
+    top: 40%;
+    left: 27%;
+}
+
+.blood-care {
+    font-size: 70px;
+    max-width: 100%;
+    width: 400px;
+    color: white;
+}
+
+@media only screen and (max-width:882px) {
+    .blood {
+        display: block;
+        margin-left: -50px;
+        max-width: 100%;
+        /* width: 200px; */
+        position: relative;
+        top: 30px;
+    }
+
+    .microscope {
+        /* margin-left: 40px;
+        margin-top: -30px;
+        max-width: 100%;
+        width: 200px;
+        background: black; */
+        display: block;
+        margin-left: 10px;
+        max-width: 200px;
+        /* width: 200px; */
+        position: relative;
+        margin-top: -190px;
+    }
+
+    .blood-care {
+        font-size: 38px;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .blood-care {
+        margin-top: 10%;
+    }
+}
